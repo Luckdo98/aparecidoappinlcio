@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Aparecido do Carmo | Cartão Virtual Institucional</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-blue-500 selection:text-white">
+
+    <!-- Background Decoration -->
+    <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="border-b border-slate-800/80 backdrop-blur-md bg-slate-950/60 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center font-bold text-lg shadow-lg shadow-blue-500/20">
+                    MC
+                </div>
+                <span class="font-semibold text-slate-200 tracking-wide text-sm sm:text-base">Matheus Aparecido do Carmo</span>
+            </div>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                CNPJ Ativo
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-grow w-full">
+        
+        <!-- Hero Section -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+                Informações Institucionais & Cadastrais
+            </h1>
+            <p class="text-slate-400 text-sm sm:text-base">
+                Registro oficial da empresa individual ativa em Colinas do Tocantins - TO.
+            </p>
+        </div>
+
+        <!-- Grid Container -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- Card 1: Registro e Identificação -->
+            <div class="md:col-span-2 bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm hover:border-slate-700 transition-colors">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="p-2.5 bg-blue-500/10 text-blue-400 rounded-xl border border-blue-500/20">
+                        <i data-lucide="building-2" class="w-6 h-6"></i>
+                    </div>
+                    <h2 class="text-xl font-semibold text-white">Dados de Registro</h2>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800/60">
+                        <span class="text-xs font-medium text-slate-400 uppercase tracking-wider block mb-1">Razão Social</span>
+                        <p class="font-medium text-slate-200 text-sm sm:text-base">64.751.349 Matheus Aparecido do Carmo</p>
+                    </div>
+
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800/60">
+                        <span class="text-xs font-medium text-slate-400 uppercase tracking-wider block mb-1">CNPJ</span>
+                        <p class="font-mono font-semibold text-blue-400 text-base">64.751.349/0001-48</p>
+                    </div>
+
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800/60">
+                        <span class="text-xs font-medium text-slate-400 uppercase tracking-wider block mb-1">Porte / Natureza</span>
+                        <p class="text-slate-200 text-sm font-medium">MEI (Microempreendedor Individual)</p>
+                        <p class="text-xs text-slate-400">Empresário (Individual)</p>
+                    </div>
+
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800/60">
+                        <span class="text-xs font-medium text-slate-400 uppercase tracking-wider block mb-1">Abertura</span>
+                        <p class="text-slate-200 text-sm font-medium">28/01/2026</p>
+                        <p class="text-xs text-slate-400">Tipo: Matriz</p>
+                    </div>
+
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800/60">
+                        <span class="text-xs font-medium text-slate-400 uppercase tracking-wider block mb-1">Regime Tributário</span>
+                        <p class="text-slate-200 text-sm font-medium">Simples Nacional / MEI</p>
+                        <p class="text-xs text-emerald-400 font-medium">Optante desde 28/01/2026</p>
+                    </div>
+
+                    <div class="bg-slate-950/50 p-4 rounded-xl border border-slate-800/60">
+                        <span class="text-xs font-medium text-slate-400 uppercase tracking-wider block mb-1">Capital Social</span>
+                        <p class="text-slate-200 text-sm font-semibold">R$ 1.000,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Contato & Localização -->
+            <div class="space-y-6">
+                
+                <!-- Contatos -->
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm hover:border-slate-700 transition-colors">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2.5 bg-indigo-500/10 text-indigo-400 rounded-xl border border-indigo-500/20">
+                            <i data-lucide="phone-call" class="w-5 h-5"></i>
+                        </div>
+                        <h2 class="text-lg font-semibold text-white">Canais de Contato</h2>
+                    </div>
+                    
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800/60">
+                            <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i>
+                            <div>
+                                <span class="text-xs text-slate-500 block">E-mail</span>
+                                <span class="text-sm text-slate-300 font-mono">ma****@****.com</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800/60">
+                            <i data-lucide="phone" class="w-4 h-4 text-slate-400"></i>
+                            <div>
+                                <span class="text-xs text-slate-500 block">Telefone</span>
+                                <span class="text-sm text-slate-300 font-mono">(63) 991****-****</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Endereço -->
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm hover:border-slate-700 transition-colors">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="p-2.5 bg-emerald-500/10 text-emerald-400 rounded-xl border border-emerald-500/20">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <h2 class="text-lg font-semibold text-white">Localização</h2>
+                    </div>
+
+                    <div class="text-sm text-slate-300 space-y-1">
+                        <p class="font-medium text-white">Rua 2, 861</p>
+                        <p>Bairro Aeroporto 1</p>
+                        <p>Colinas do Tocantins - TO</p>
+                        <p class="text-xs text-slate-400 font-mono pt-2">CEP: 77760-000</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800/80 bg-slate-950/80 py-6 mt-12 text-center text-xs text-slate-500">
+        <p>© 2026 Matheus Aparecido do Carmo. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Render Icons Script -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
